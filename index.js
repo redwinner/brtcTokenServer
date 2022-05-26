@@ -406,7 +406,7 @@ function generateSignature(appId, appKey, startTs, randomStr, roomName, userId, 
 function generateToken(appId, appKey, roomName, userId) {
 	let version = '004';
 	let startTs = (Date.parse(new Date()) + '').substring(0, 10);
-	let expiredTs = '0000000000';
+	let expiredTs = ((Date.parse(new Date()) + 315360000000) + '').substring(0, 10);
 
 	let token = generateTokenInner(version, appId, appKey, roomName, userId, startTs, expiredTs);
 	return token;

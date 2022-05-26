@@ -1,5 +1,5 @@
 module.exports = {
   listen: 8080,
-  appId: process.env.BRTC_APPID,
-  appKey: process.env.BRTC_APPKEY,
+  appId: 'GET-FROM-BAIDU', // process.env.BRTC_APPID,
+  appKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', // process.env.BRTC_APPKEY,
 };

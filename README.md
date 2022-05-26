@@ -15,7 +15,6 @@ AppKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 2. Clone project and generate config:
 
 ```
-npm install &&
 echo "module.exports = {" > config.js &&
 echo "  listen: 8080," >> config.js &&
 echo "  appId: 'GET-FROM-BAIDU'," >> config.js &&
